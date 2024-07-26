@@ -20,7 +20,7 @@ AUTH_USER_MODEL='useraccount.User'
 
 SITE_ID = 1
 
-WEBSITE_URL ='http://localhost:8000'
+WEBSITE_URL ='https://tadkatales_backend.onrender.com'
 # if DEBUG:
 # ALLOWED_HOSTS = ["localhost", "127.0.0.1", "64.226.81.32"]
 # else:
