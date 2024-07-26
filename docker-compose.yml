@@ -1,0 +1,27 @@
+version: '3.13'
+
+services:
+  web:
+    build:
+      context: ./tadkatales_backend
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./tadkatales_backend:/usr/src/tadkatales_backend
+    ports:
+      - 8000:8000
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgresuser
+      - POSTGRES_PASSWORD=postgrespassword
+      - POSTGRES_DB=tadkatales
+
+volumes:
+  postgres_data:
