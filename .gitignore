@@ -1,1 +1,60 @@
-djangobnb_backend/env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.env
+
+# Django migrations
+*/migrations/*
+
+# If you are using Pillow:
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.mng
+*.pcx
+*.mov
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Local environment settings
+.env
+
+# Node.js dependencies
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# MySQL database files
+*.sql
+
+# Postgres database files
+*.pg_dump
+
+# OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db

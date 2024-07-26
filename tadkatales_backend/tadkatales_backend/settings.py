@@ -60,18 +60,21 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
    ' https://tadkatales.vercel.app'
+   'https://tadkatales_backend.onrender.com'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
     'https://tadkatales.vercel.app'
+    'https://tadkatales_backend.onrender.com'
 ]
 
 CORS_ORIGINS_WHITELIST = [
     'http://127.0.0.1:8000',
     'http://127.0.0.1:3000',
     'https://tadkatales.vercel.app'
+    'https://tadkatales_backend.onrender.com'
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
